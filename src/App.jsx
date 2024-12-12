@@ -7,9 +7,9 @@ function App() {
     <>
       {/* SEO Optimization with React Helmet */}
       <Helmet>
-        <title>Nikhil Telase - Portfolio</title>
-        <meta name="description" content="Nikhil Telase's Portfolio - A Developer and Innovator" />
-        <meta name="keywords" content="React, Python, MERN Stack, IoT, Robotics, AI, Developer Portfolio" />
+        <title>Celestius - Portfolio</title>
+        <meta name="description" content="Club Celestius' Portfolio" />
+        <meta name="keywords" content="React, Python, MERN Stack, IoT, Robotics, AI, and so on" />
       </Helmet>
 
       <div className="bg-dark-200 min-h-screen">

@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -8,17 +8,17 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="text-center md:text-left mb-8 md:mb-0">
             <h3 className="text-3xl font-extrabold text-white mb-2 tracking-wide">
-              Nikhil<span className="text-accent">.</span>
+              Celestius<span className="text-accent"></span>
             </h3>
             <p className="text-gray-300">
-              Crafting cutting-edge solutions in AI, IoT, and Web Development.
+              Technology is best when it brings people together.
             </p>
           </div>
 
           {/* Social Media Links */}
           <div className="flex gap-8">
             <a
-              href="https://github.com/nikhiltelase"
+              href="https://github.com/KRISHNASAKTHIESWAR/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-white hover:scale-110 transition-all duration-300"
@@ -27,7 +27,7 @@ const Footer = () => {
               <FaGithub size={28} />
             </a>
             <a
-              href="https://linkedin.com/in/nikhiltelase"
+              href="https://linkedin.com/company/club-celestius-cit/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-white hover:scale-110 transition-all duration-300"
@@ -36,13 +36,13 @@ const Footer = () => {
               <FaLinkedin size={28} />
             </a>
             <a
-              href="https://twitter.com/nikhiltelase"
+              href="https://instagram.com/celestius.cit"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-white hover:scale-110 transition-all duration-300"
-              aria-label="Twitter"
+              aria-label="Instagram"
             >
-              <FaTwitter size={28} />
+              <FaInstagram size={28} />
             </a>
           </div>
         </div>
@@ -55,7 +55,7 @@ const Footer = () => {
         {/* Footer Bottom */}
         <div className="mt-8 text-center">
           <p className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} <span className="text-white font-medium">Nikhil Telase</span>. All rights reserved.
+            © {new Date().getFullYear()} <span className="text-white font-medium">CLUB CELESTIUS</span>. All rights reserved.
           </p>
         </div>
       </div>

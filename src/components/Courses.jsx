@@ -39,7 +39,7 @@ const Courses = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl font-bold text-white mb-4">
-            Courses & Certifications
+            
           </h2>
           <p className="text-gray-400 text-lg max-w-3xl mx-auto">
             Continuous learning through structured courses and hands-on practice to stay updated with the latest technologies.

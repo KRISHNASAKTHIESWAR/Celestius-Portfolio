@@ -2,7 +2,10 @@ import React from "react";
 import { motion } from "framer-motion";
 import {
   FaGraduationCap,
+  FaHackerNewsSquare,
+  FaHackerrank,
   FaLaptopCode,
+  FaSchool,
   FaServer,
 } from "react-icons/fa";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
@@ -10,38 +13,38 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const timelineElements = [
   {
-    title: "12th Grade Education",
-    location: "Madhya Pradesh State Board",
-    description: "Completed higher primary education with focus on science and mathematics",
-    date: "2021",
+    title: "Workshops",
+    location: "",
+    description: "Sessions on programming languages and technologies to enhance your skills.",
+    date: "November 20, 2024",
+    icon: <FaLaptopCode />,
+  },
+  {
+    title: "Industry Expert Talks",
+    location: "",
+    description: "Sessions with tech professionals sharing their experiences.",
+    date: "December 25,2024",
     icon: <FaGraduationCap />,
   },
   {
-    title: "Python Development Journey",
-    location: "Self-Learning & Projects",
-    description: "Started learning Python and building projects. Developed strong foundation in programming concepts and problem-solving",
-    date: "2022",
-    icon: <FaLaptopCode />,
+    title: "Mirabilia",
+    location: "",
+    description: "The most monumental event we've ever hosted — an unforgettable spectacle of grandeur and mystery.",
+    date: "January 2025",
+    icon: <FaHackerrank />,
   },
   {
-    title: "MERN Stack Development",
-    location: "Connect Shiksha",
-    description: "Mastered full-stack web development with MongoDB, Express.js, React, and Node.js. Built several projects including My Shopee e-commerce platform",
-    date: "2023",
-    icon: <FaServer />,
-  },
-  {
-    title: "IoT and Automation Projects",
-    location: "Personal Projects",
-    description: "Focused on Internet of Things and automation projects. Developed home automation systems and worked with drones",
-    date: "2024",
-    icon: <FaLaptopCode />,
+    title: "Mentoring Session",
+    location: "",
+    description: "Placement faculties shairng their insights to the students.",
+    date: "January 2025",
+    icon: <FaSchool />,
   },
 ];
 
-const Timeline = () => {
+const Events = () => {
   return (
-    <section id="about" className="py-20 bg-transparent backdrop-blur-0">
+    <section id="events" className="py-20 bg-transparent backdrop-blur-0">
       <div className="max-w-7xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0 }}
@@ -50,11 +53,10 @@ const Timeline = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl font-bold text-white mb-4">
-            My Journey
+            Upcoming Events
           </h2>
           <p className="text-gray-400 text-lg max-w-3xl mx-auto">
-            From learning the basics of programming to developing full-stack applications
-            and exploring emerging technologies in AI and IoT.
+            Get ready to witness something big!
           </p>
         </motion.div>
 
@@ -94,4 +96,4 @@ const Timeline = () => {
   );
 };
 
-export default Timeline;
+export default Events;

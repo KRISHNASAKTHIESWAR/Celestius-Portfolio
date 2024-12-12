@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaCode, FaRobot, FaServer } from 'react-icons/fa';
+import { FaArrowUp, FaBrain, FaCode, FaHandHolding, FaLightbulb, FaRobot, FaServer, FaStepForward } from 'react-icons/fa';
 
 function AboutSection() {
   return (
@@ -14,13 +14,14 @@ function AboutSection() {
           transition={{ duration: 0.5 }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">About Me</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">About Us</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-8"></div>
           <p className="text-gray-300 max-w-2xl mx-auto">
-            I'm a passionate software developer with expertise in Python and the MERN stack. 
-            I love building projects in IoT, robotics, and automation, aiming to create 
-            user-friendly and innovative solutions.
+          Club Celestius is a student-run organization that aims to provide a platform for competitive programming and technology enthusiasts to develop their skills, collaborate on innovative projects, and connect with industry professionals.
+          
+          Our mission is to create a vibrant community where members can explore new technologies, participate in coding challenges, and work on real-world industrial projects. We believe in the power of mentorship and strive to connect our members with experienced professionals who can guide them in their academic and professional journeys.
           </p>
+          
         </motion.div>
 
         {/* Service Cards */}
@@ -28,18 +29,18 @@ function AboutSection() {
           {[
             {
               icon: FaCode,
-              title: "Web Development",
-              description: "Building responsive and dynamic web applications using modern technologies"
+              title: "Skill Development",
+              description: "nhance your programming skills through workshops, coding challenges, and hands-on projects."
             },
             {
-              icon: FaRobot,
-              title: "IoT & Robotics",
-              description: "Creating innovative solutions combining hardware and software"
+              icon: FaHandHolding,
+              title: "Collaboration",
+              description: "Collaborate with fellow members on innovative projects and learn from each other's experiences."
             },
             {
-              icon: FaServer,
-              title: "Backend Development",
-              description: "Developing robust and scalable server-side applications"
+              icon: FaLightbulb,
+              title: "Innovation",
+              description: "Explore new technologies and participate in coding competitions to showcase your innovative ideas."
             }
           ].map((service, index) => (
             <motion.div

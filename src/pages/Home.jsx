@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 // Lazy load components to improve initial load time
 const Hero = lazy(() => import("../components/Hero"));
 const AboutSection = lazy(() => import("../components/AboutSection"));
-const Timeline = lazy(() => import("../components/Timeline"));
+const Timeline = lazy(() => import("../components/Events"));
 const Skills = lazy(() => import("../components/Skills"));
 const Projects = lazy(() => import("../components/Projects"));
 const Contact = lazy(() => import("../components/Contact"));
@@ -23,7 +23,6 @@ function Home() {
         <Hero />
         <AboutSection />
         <Timeline />
-        <Courses />
         <Skills />
         <Projects />
         <Contact />

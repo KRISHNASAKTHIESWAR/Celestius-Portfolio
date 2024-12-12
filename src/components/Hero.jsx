@@ -16,15 +16,15 @@ const Hero = () => {
           className="flex flex-col gap-4"
         >
           <h1 className="text-3xl sm:text-6xl font-bold text-white mb-2 sm:mb-4">
-            Hi, I'm{" "}
+            We are{" "}
             <span className="text-accent">
               <TypeAnimation
                 sequence={[
-                  "Nikhil Telase",
+                  "Celestius",
                   1000,
-                  "a Developer",
+                  "a Community",
                   1000,
-                  "an Innovator",
+                  "Developers",
                   1000,
                 ]}
                 wrapper="span"
@@ -34,9 +34,9 @@ const Hero = () => {
             </span>
           </h1>
           <p className="text-lg sm:text-2xl text-gray-400 sm:mb-8">
-            Python & MERN Stack Developer, passionate about building innovative
+            We focus on upskilling, building projects and provide cutting edge
             <br />
-            solutions in AI, IoT, and Web Development.
+            solutions in various fields of technologies.
           </p>
         </motion.div>
 
@@ -51,14 +51,14 @@ const Hero = () => {
             href="#projects"
             className="bg-accent hover:bg-accent/90 text-white sm:px-6 p-2 sm:py-3 rounded-lg transition-all bg-primary transform hover:scale-105 hover:shadow-lg"
           >
-            View Projects
+            Our Projects
           </a>
           <a
-            href="/nikhil-resume2.pdf" // Update to a relative path
+            href="https://chat.whatsapp.com/HD0c0NjCyhm5WszsSpGMfV" // Update to a relative path
             download
             className="border text-primary border-accent text-accent hover:bg-accent/10 p-2 sm:px-6 sm:py-3 rounded-lg transition-all transform hover:scale-105 hover:shadow-lg"
           >
-            Download Resume
+            Join us
           </a>
         </motion.div>
 

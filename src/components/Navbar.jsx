@@ -6,16 +6,15 @@ import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 const navItems = [
   { name: 'Home', to: 'home' },
   { name: 'About', to: 'about' },
-  { name: 'Courses', to: 'courses' },
-  { name: 'Skills', to: 'skills' },
+  { name: 'Events', to: 'events' },
   { name: 'Projects', to: 'projects' },
   { name: 'Contact', to: 'contact' },
 ];
 
 const socialLinks = [
-  { icon: FaGithub, href: 'https://github.com/nikhiltelase' },
-  { icon: FaLinkedin, href: 'https://linkedin.com/in/nikhiltelase' },
-  { icon: FaInstagram, href: 'https://instagram.com/nikhiltelase17' },
+  { icon: FaGithub, href: 'https://github.com/KRISHNASAKTHIESWAR' },
+  { icon: FaLinkedin, href: 'https://linkedin.com/company/club-celestius-cit' },
+  { icon: FaInstagram, href: 'https://instagram.com/celestius.cit' },
 ];
 
 function Navbar() {
@@ -40,10 +39,10 @@ function Navbar() {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <motion.div
-            whileHover={{ scale: 1.1 }}
+            whileHover={{ scale: 1.2 }}
             className="text-xl font-bold text-primary"
           >
-            NT
+            CELESTIUS
           </motion.div>
           
           <div className="hidden md:flex items-center space-x-8">
